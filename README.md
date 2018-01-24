@@ -73,8 +73,8 @@ Create a blank `index.php` file inside your new extension directory, and insert 
  * Extension Class: Tribe__Extension__[Example]
  * Author:          Modern Tribe, Inc.
  * Author URI:      http://m.tri.be/1971
- * License:         GPLv2 or later
- * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
+ * License:         GPL version 3 or any later version
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Do not load unless Tribe Common is fully loaded.
@@ -126,8 +126,8 @@ The extension template begins with this block of code.
  * Extension Class: Tribe__Extension__[Example]
  * Author:          Modern Tribe, Inc.
  * Author URI:      http://m.tri.be/1971
- * License:         GPLv2 or later
- * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
+ * License:         GPL version 3 or any later version
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
  */
 ```
 
@@ -159,8 +159,8 @@ Following the above guidelines, the full header for our plugin that hides the Tr
  * Extension Class: Tribe__Extension__Hide_Tribe_Bar
  * Author:          Modern Tribe, Inc.
  * Author URI:      http://m.tri.be/1971
- * License:         GPLv2 or later
- * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
+ * License:         GPL version 3 or any later version
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
  */
 ```
 
@@ -318,8 +318,8 @@ Here is the finished Hide Tribe Bar extension example the above steps walked you
  * Extension Class: Tribe__Extension__Hide_Tribe_Bar
  * Author:          Modern Tribe, Inc.
  * Author URI:      http://m.tri.be/1971
- * License:         GPLv2 or later
- * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
+ * License:         GPL version 3 or any later version
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Do not load unless Tribe Common is fully loaded.
@@ -431,4 +431,4 @@ All extensions in this repo must adhere to these standards.
 
 * Use the 'tribe-extension' text domain for WordPress' translation functions.
 * As a rule of thumb, extension methods that are attached to a filter are named after the filter they are attached to. If your extension has a method attached to `pre_get_posts` usually it makes sense to call the method `pre_get_posts()`. This makes the extensions easier to integrate if its code is ever included in an official Modern Tribe plugin. 
-* Use the GPLv2 or later license. It is possible that some or all code for any extension in this repository will later get included in an official Modern Tribe plugin. Extensions in this repo are written with this possibility in mind, and licensed appropriately.
+* Use the _GPL version 3 or any later version_ license. It is possible that some or all code for any extension in this repository will later get included in an official Modern Tribe plugin. Extensions in this repo are written with this possibility in mind, and licensed appropriately.
