@@ -75,6 +75,7 @@ Create a blank `index.php` file inside your new extension directory, and insert 
  * Author URI:      http://m.tri.be/1971
  * License:         GPL version 3 or any later version
  * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain:     match-the-plugin-directory-name
  */
 
 // Do not load unless Tribe Common is fully loaded.
